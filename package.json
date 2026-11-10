@@ -1,0 +1,9 @@
+{
+  "name": "freightcheck",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Freight billing reconciliation: TMS exports + carrier invoice PDFs → exceptions that cost money.",
+  "scripts": { "test": "vitest run", "typecheck": "tsc --noEmit" },
+  "devDependencies": { "typescript": "~5.9.0", "vitest": "^4.0.0" }
+}
